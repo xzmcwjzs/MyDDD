@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +28,7 @@ namespace XZMCWJZS.DDD.Repository.EntityFramework
         {
             var ctx = this.EfContext.DbContex as OnlineStoreDbContext;
             ctx.Products.Add(aggregateRoot);
+            ctx.Entry(aggregateRoot).State = EntityState.Added;
             ctx.SaveChanges(); 
         }
 

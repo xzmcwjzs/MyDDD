@@ -25,3 +25,6 @@ D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WC
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WCF.Application\bin\XZMCWJZS.DDD.Repository.pdb
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WCF.Application\bin\EntityFramework.xml
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WCF.Application\bin\zh-Hans\EntityFramework.resources.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WCF.Application\bin\EntityFramework.SqlServer.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WCF.Application\bin\EntityFramework.SqlServer.xml
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.WCF.Application\bin\zh-Hans\EntityFramework.SqlServer.resources.dll

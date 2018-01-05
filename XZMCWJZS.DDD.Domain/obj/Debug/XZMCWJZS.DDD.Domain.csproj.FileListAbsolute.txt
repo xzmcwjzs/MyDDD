@@ -1,6 +1,5 @@
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\bin\Debug\XZMCWJZS.DDD.Domain.dll
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\bin\Debug\XZMCWJZS.DDD.Domain.pdb
-D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\obj\Debug\XZMCWJZS.DDD.Domain.csprojResolveAssemblyReference.cache
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\obj\Debug\XZMCWJZS.DDD.Domain.dll
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\obj\Debug\XZMCWJZS.DDD.Domain.pdb
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\bin\Debug\XZMCWJZS.DDD.Domain.dll.config
@@ -10,3 +9,4 @@ D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Do
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\bin\Debug\EntityFramework.SqlServer.xml
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Domain\obj\Debug\XZMCWJZS.DDD.Domain.csprojResolveAssemblyReference.cache

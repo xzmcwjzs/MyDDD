@@ -276,6 +276,7 @@
     <None Include="Service References\ProductService\ProductService2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Views\Product\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
