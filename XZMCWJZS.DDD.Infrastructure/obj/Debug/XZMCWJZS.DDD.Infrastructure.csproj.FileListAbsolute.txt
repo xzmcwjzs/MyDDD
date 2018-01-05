@@ -1,0 +1,6 @@
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Infrastructure\bin\Debug\XZMCWJZS.DDD.Infrastructure.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Infrastructure\bin\Debug\XZMCWJZS.DDD.Infrastructure.pdb
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Infrastructure\obj\Debug\XZMCWJZS.DDD.Infrastructure.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Infrastructure\obj\Debug\XZMCWJZS.DDD.Infrastructure.pdb
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Infrastructure\bin\Debug\XZMCWJZS.DDD.Infrastructure.dll.config
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.Infrastructure\obj\Debug\XZMCWJZS.DDD.Infrastructure.csprojResolveAssemblyReference.cache

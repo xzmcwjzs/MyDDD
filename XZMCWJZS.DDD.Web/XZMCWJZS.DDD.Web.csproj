@@ -52,6 +52,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -168,15 +170,33 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801040802485_InitialCreate.cs" />
+    <Compile Include="Migrations\201801040802485_InitialCreate.Designer.cs">
+      <DependentUpon>201801040802485_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801040850585_update_Book_20180104.cs" />
+    <Compile Include="Migrations\201801040850585_update_Book_20180104.Designer.cs">
+      <DependentUpon>201801040850585_update_Book_20180104.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\BookDbContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ProductService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +208,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Properties\DataSources\XZMCWJZS.DDD.Domain.Model.Category.datasource" />
+    <Content Include="Properties\DataSources\XZMCWJZS.DDD.Domain.Model.Product.datasource" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -200,6 +222,13 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <None Include="Service References\ProductService\ProductService.disco" />
+    <None Include="Service References\ProductService\configuration91.svcinfo" />
+    <None Include="Service References\ProductService\configuration.svcinfo" />
+    <None Include="Service References\ProductService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -234,6 +263,19 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\Book\Create.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <None Include="Service References\ProductService\ProductService.wsdl" />
+    <None Include="Service References\ProductService\ProductService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ProductService\ProductService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ProductService\ProductService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -245,6 +287,34 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801040802485_InitialCreate.resx">
+      <DependentUpon>201801040802485_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801040850585_update_Book_20180104.resx">
+      <DependentUpon>201801040850585_update_Book_20180104.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XZMCWJZS.DDD.Domain\XZMCWJZS.DDD.Domain.csproj">
+      <Project>{8d3f68c2-447f-471d-8670-207eb7d0f2c8}</Project>
+      <Name>XZMCWJZS.DDD.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XZMCWJZS.DDD.Repository\XZMCWJZS.DDD.Repository.csproj">
+      <Project>{68ff401a-a93c-4b51-8ed3-59707cb1d3a8}</Project>
+      <Name>XZMCWJZS.DDD.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XZMCWJZS.DDD.WCF.Application\XZMCWJZS.DDD.WCF.Application.csproj">
+      <Project>{8e6e4a16-642f-441b-af74-b67933d00f92}</Project>
+      <Name>XZMCWJZS.DDD.WCF.Application</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ProductService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

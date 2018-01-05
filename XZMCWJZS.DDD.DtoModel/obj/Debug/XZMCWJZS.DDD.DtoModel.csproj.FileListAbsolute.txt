@@ -1,0 +1,5 @@
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.DtoModel\bin\Debug\XZMCWJZS.DDD.DtoModel.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.DtoModel\bin\Debug\XZMCWJZS.DDD.DtoModel.pdb
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.DtoModel\obj\Debug\XZMCWJZS.DDD.DtoModel.csprojResolveAssemblyReference.cache
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.DtoModel\obj\Debug\XZMCWJZS.DDD.DtoModel.dll
+D:\王杰\桌面文件\通用框架设计\DDD\MyDDD\XZMCWJZS.DDD\XZMCWJZS.DDD.DtoModel\obj\Debug\XZMCWJZS.DDD.DtoModel.pdb
