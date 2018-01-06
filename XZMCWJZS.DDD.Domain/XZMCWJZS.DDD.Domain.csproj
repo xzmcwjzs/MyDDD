@@ -64,6 +64,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XZMCWJZS.DDD.Infrastructure\XZMCWJZS.DDD.Infrastructure.csproj">
+      <Project>{4723825F-E29A-4B62-9601-6346A77CD32B}</Project>
+      <Name>XZMCWJZS.DDD.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

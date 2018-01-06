@@ -61,6 +61,10 @@
       <Project>{8D3F68C2-447F-471D-8670-207EB7D0F2C8}</Project>
       <Name>XZMCWJZS.DDD.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XZMCWJZS.DDD.Infrastructure\XZMCWJZS.DDD.Infrastructure.csproj">
+      <Project>{4723825F-E29A-4B62-9601-6346A77CD32B}</Project>
+      <Name>XZMCWJZS.DDD.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
